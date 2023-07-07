@@ -7,7 +7,7 @@ import Watches from './components/pages/Watches';
 import Dropdown from './components/Dropdown';
 import GlobalStyle from './globalStyles';
 import Service from './components/pages/Service';
-import Signup from './components/pages/Signup';
+import Login from './components/pages/Login';
 import Footer from './components/Footer/Footer';
 
 
@@ -27,7 +27,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/watches" element={<Watches />} />
         <Route path="/service" element={<Service />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </Router>

@@ -86,7 +86,7 @@ const Navbar = ({ toggle }) => {
             ))}
         </NavMenu>
         <NavBtn>
-        <Button to='/signup' primary="true">Sign Up</Button>
+        <Button to='/login' primary="true">Login</Button>
         </NavBtn>
     </Nav>
   )
