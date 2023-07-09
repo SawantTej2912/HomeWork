@@ -10,7 +10,8 @@ import './Login.css';
 
 //   return <h1 style={headingStyle}>Signup</h1>;
 // }
-
+import { FaLock } from 'react-icons/fa';
+import { HiMail } from 'react-icons/hi';
 
 function Login ()  {
   return(
@@ -21,25 +22,25 @@ function Login ()  {
                     <h2>Login</h2>
                     <div class="input-box">
                         <span class="icon">
-                            {/* <!-- <ion-icon name="mail"></ion-icon> --> */}
+                            <HiMail /> 
                         </span>
                         <input type="email" required />
                         <label>Email</label>
                     </div>
                     <div class="input-box">
                         <span class="icon">
-                            {/* <!-- <ion-icon name="lock-closed"></ion-icon> --> */}
+                        <FaLock /> 
                         </span>
                         <input type="password" required />
                         <label>Password</label>
                     </div>
                     <div class="remember-forgot">
                         <label><input type="checkbox" /> Remember me </label>
-                        <a href="#">Forgot Password?</a>
+                        <a href="/">Forgot Password?</a>
                     </div>
                     <button type="submit">Login</button>
                     <div class="register-link">
-                        <p>Don't have an account? <a href="#">Register</a></p>
+                        <p>Don't have an account? <a href="/">Register</a></p>
                     </div>
                 </form>
             </div>

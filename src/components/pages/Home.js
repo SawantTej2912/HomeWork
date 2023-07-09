@@ -11,7 +11,7 @@ function Home() {
     <>
       <Hero slides={SliderData} />
       <InfoSection {...InfoData} />
-      {/* <InfoSection {...InfoDataTwo} reverse={true} /> */}
+      <InfoSection {...InfoDataTwo} reverse={true} />
 
     </>
     );
