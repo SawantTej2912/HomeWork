@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
 import { FaBars } from 'react-icons/fa';
+import icon from '../images/logo.png'
 
 const Nav = styled.nav`
     height: 60px;
@@ -76,7 +77,7 @@ const NavBtn = styled.div`
 const Navbar = ({ toggle }) => {
   return (
     <Nav>
-        <Logo to="/">ROLEX</Logo>
+        <Logo to="/"><img src={icon} alt="icon" height="20px" width="20px"/>ROLEX</Logo>
         <MenuBars  onClick={toggle}/>
         <NavMenu>
             {menuData.map((item, index) => (

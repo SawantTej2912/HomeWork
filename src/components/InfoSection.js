@@ -26,7 +26,7 @@ const ColumnLeft = styled.div`
   align-items: flex-start;
   line-height: 1.4;
   padding: 1rem 2rem;
-  order: ${({reverse}) => (reverse === 'true' ? '2' : '1')};
+  
 
   h1 {
     margin-bottom: 1re;
@@ -40,13 +40,11 @@ const ColumnLeft = styled.div`
 
 const ColumnRight = styled.section`
   padding: 1rem 2rem;
-  order: ${({reverse}) => (reverse === 'true' ? '1' : '2')};
   display: flex;
   justify-content: center;
   align-items: center;
 
   @media screen and (max-width: 768px) {
-    order: ${({reverse}) => (reverse === 'true' ? '2' : '1')};
   }
 
   img {

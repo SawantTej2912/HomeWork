@@ -68,7 +68,6 @@ function Pricing() {
                 <PricingCardFeatures>
                   <PricingCardFeature>50% off on Accessories</PricingCardFeature>
                   <PricingCardFeature>Access To New Releasest</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
                   <PricingCardFeature>Orders On Demand</PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>

@@ -14,6 +14,13 @@ import {
 
 
 const Products = ({ heading, data }) => {
+  const handleContact = (e) => {
+
+    e.preventDefault();
+
+    window.alert('Thank You! for letting us know your choice.');
+
+  };
   return (
     <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
@@ -26,7 +33,7 @@ const Products = ({ heading, data }) => {
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
                 <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton>{product.button}</ProductButton>
+                <ProductButton onClick={handleContact}>{product.button}</ProductButton>
               </ProductInfo>
             </ProductCard>
           );

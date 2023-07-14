@@ -13,7 +13,7 @@ export const productData = [
     desc:
       "Iconic luxury diver's watch with timeless design and exceptional craftsmanship.",
     price: '$8000',
-    button: 'Learn More'
+    button: 'Contact Botique'
   },
   {
     img: product2,
@@ -22,7 +22,7 @@ export const productData = [
     desc:
       ' Legendary chronograph watch with sporty elegance and high-performance precision.',
     price: '$13000',
-    button: 'Learn More'
+    button: 'Contact Botique'
   },
   {
     img: product3,
@@ -31,7 +31,7 @@ export const productData = [
     desc:
       ' Versatile dual-timezone watch with refined aesthetics and superb functionality.',
     price: '$9000',
-    button: 'Learn More'
+    button: 'Contact Botique'
   }
 ];
 
@@ -43,7 +43,7 @@ export const productDataTwo = [
     desc:
       'Classic and elegant timepiece, synonymous with timeless style and sophistication.',
     price: '$5000',
-    button: 'Learn More'
+    button: 'Contact Botique'
   },
   {
     img: DayDate,
@@ -52,7 +52,7 @@ export const productDataTwo = [
     desc:
       'The pinnacle of prestige and luxury with a prestigious lineage.',
     price: '$6000',
-    button: 'Learn More'
+    button: 'Contact Botique'
   },
   {
     img: Oyster,
@@ -61,6 +61,6 @@ export const productDataTwo = [
     desc:
       'Iconic luxury Swiss watch with perpetual self-winding movement by Rolex.',
     price: '$10000',
-    button: 'Learn More'
+    button: 'Contact Botique'
   }
 ];
